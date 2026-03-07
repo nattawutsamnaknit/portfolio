@@ -123,7 +123,7 @@ body {
 .s-ball { width: 4px; height: 4px; border-radius: 50%; background: var(--ink2); animation: sball 2s ease-in-out infinite; }
 @keyframes sball { 0%,100%{transform:translateY(0)} 50%{transform:translateY(12px)} }
 
-.ticker-strip { grid-column: 1/-1; grid-row: 2; overflow: hidden; border-top: 1px solid var(--border); padding: .9rem 0; margin-top: 2rem; background: var(--ink); }
+.ticker-strip { grid-column: 1/-1;  overflow: hidden; border-top: 1px solid var(--border); padding: .9rem 0; margin-top: 2rem; background: var(--ink); }
 .ticker { display: flex; align-items: center; gap: 2.5rem; white-space: nowrap; animation: ticker 28s linear infinite; width: max-content; }
 .ticker span { font-family: var(--font-h); font-size: 1rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--bg); }
 .ticker b { color: var(--accent); }

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ณัฐวุฒิ สำนักนิต — UX/UI Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,700;0,800;0,900;1,700;1,900&family=Barlow:wght@300;400;500;600&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="cursor"><div id="cdot"></div><span id="ctxt"></span></div>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="nav">
+    <div class="nav-wrap">
+      <div class="nav-av">
+        <img src="photo.jpg" alt="" id="navImg">
+        <span class="nav-fb">ณ</span>
+      </div>
+      <ul class="nav-list">
+        <li><a href="#home"     class="nl">หน้าแรก</a></li>
+        <li><a href="#about"    class="nl">เกี่ยวกับ</a></li>
+        <li><a href="#skills"   class="nl">ทักษะ</a></li>
+        <li><a href="#projects" class="nl">ผลงาน</a></li>
+      </ul>
+      <a href="#contact" class="nav-btn">ติดต่อ</a>
+      <button class="burger" id="burger"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mob-menu" id="mobMenu">
+    <button class="mob-x" id="mobX">✕</button>
+    <a href="#home"     class="mob-a">หน้าแรก</a>
+    <a href="#about"    class="mob-a">เกี่ยวกับ</a>
+    <a href="#skills"   class="mob-a">ทักษะ</a>
+    <a href="#projects" class="mob-a">ผลงาน</a>
+    <a href="#contact"  class="mob-a hi">ติดต่อ</a>
+  </div>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="home" class="hero">
+    <div class="hero-left">
+      <p class="eyebrow" data-reveal>นักออกแบบ UX/UI · พระนครศรีอยุธยา</p>
+      <h1 class="hero-word" data-reveal data-delay="80">NATTAWUT</h1>
+    </div>
+    <div class="hero-center" data-reveal data-delay="200">
+      <div class="hero-card">
+        <img src="images/N.jpg" alt="ณัฐวุฒิ" id="heroImg">
+        <div class="hero-ph">
+          <svg viewBox="0 0 100 120" fill="none"><circle cx="50" cy="38" r="24" fill="rgba(255,255,255,.13)"/><ellipse cx="50" cy="92" rx="36" ry="22" fill="rgba(255,255,255,.08)"/></svg>
+          <span>ใส่ photo.jpg</span>
+        </div>
+        <div class="card-shine"></div>
+      </div>
+      <div class="hero-badge" id="heroBadge"><span>พร้อม<br>ทำงาน</span></div>
+    </div>
+    <div class="hero-right">
+      <h1 class="hero-word" data-reveal data-delay="80">DESIGNER</h1>
+      <p class="hero-sub" data-reveal data-delay="200">ออกแบบประสบการณ์ดิจิทัล<br>ที่สวยงามและใช้งานได้จริง</p>
+    </div>
+    <div class="hero-scroll" data-reveal data-delay="600">
+      <div class="s-wheel"><div class="s-ball"></div></div><span>เลื่อนลง</span>
+    </div>
+    <div class="ticker-strip">
+      <div class="ticker">
+        <span>UX/UI Design</span><b>✦</b>
+        <span>Figma</span><b>✦</b>
+        <span>Wireframing</span><b>✦</b>
+        <span>HTML · CSS · JS</span><b>✦</b>
+        <span>พร้อมทำงาน</span><b>✦</b>
+        <span>UX/UI Design</span><b>✦</b>
+        <span>Figma</span><b>✦</b>
+        <span>Wireframing</span><b>✦</b>
+        <span>HTML · CSS · JS</span><b>✦</b>
+        <span>พร้อมทำงาน</span><b>✦</b>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ABOUT ═══ -->
+  <section id="about" class="sec">
+    <div class="wrap">
+      <div class="about-layout">
+
+        <div class="about-left">
+          <h2 class="sec-head" data-reveal>เกี่ยวกับฉัน</h2>
+          <p class="about-intro" data-reveal data-delay="60">
+            สวัสดี ฉันชื่อ <strong>ณัฐวุฒิ สำนักนิต</strong> — บัณฑิตใหม่สาขาวิทยาการคอมพิวเตอร์ จาก มทร.สุวรรณภูมิ เกรดเฉลี่ย 3.78 มีความสนใจด้าน UX/UI Design เชี่ยวชาญการออกแบบ Interface ด้วย Figma และหลักการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง พร้อมทำงานร่วมกับทีมพัฒนาอย่างมีประสิทธิภาพ
+          </p>
+
+          <div class="about-stats" data-reveal data-delay="120">
+            <div class="ast">
+              <span class="asn" data-count="378">0</span>
+              <p>เกรด × 100</p>
+            </div>
+            <div class="ast">
+              <span class="asn" data-count="1">0</span><span class="asp">+</span>
+              <p>ปีประสบการณ์</p>
+            </div>
+            <div class="ast">
+              <span class="asn" data-count="6">0</span><span class="asp">+</span>
+              <p>โปรเจ็ค</p>
+            </div>
+          </div>
+
+          <div class="about-contact" data-reveal data-delay="180">
+            <div class="ac-item">
+              <span class="ac-label">อีเมล :</span>
+              <a href="mailto:Nattawut.samnaknit@mail.com">Nattawut.samnaknit@mail.com</a>
+            </div>
+            <div class="ac-item">
+              <span class="ac-label">โทรศัพท์ :</span>
+              <a href="tel:+66809902729">+66 80 990 2729</a>
+            </div>
+            <div class="ac-item">
+              <span class="ac-label">ที่อยู่ :</span>
+              <span>พระนครศรีอยุธยา, ประเทศไทย</span>
+            </div>
+          </div>
+
+          <div class="about-socials" data-reveal data-delay="220">
+            <a href="#" class="soc-icon" aria-label="GitHub" data-cursor="GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/nattawut-samnaknit" target="_blank" class="soc-icon" aria-label="LinkedIn" data-cursor="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="soc-icon" aria-label="Figma" data-cursor="Figma">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.852 8.981h-4.588V0h4.588c2.476 0 4.49 2.014 4.49 4.49s-2.014 4.491-4.49 4.491zM12.735 7.51h3.117c1.665 0 3.019-1.355 3.019-3.019s-1.354-3.019-3.019-3.019h-3.117V7.51zm0 1.471H8.148c-2.476 0-4.49-2.014-4.49-4.49S5.672 0 8.148 0h4.587v8.981zm-4.587-7.51c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.019 3.019 3.019h3.117V1.471H8.148zm4.587 15.019H8.148c-2.476 0-4.49-2.014-4.49-4.49s2.014-4.49 4.49-4.49h4.587v8.98zM8.148 10.98c-1.665 0-3.019 1.355-3.019 3.019s1.354 3.019 3.019 3.019h3.117v-6.038H8.148zm4.587 8.504c0 2.476-2.014 4.49-4.49 4.49s-4.49-2.014-4.49-4.49 2.014-4.49 4.49-4.49h4.49v4.49zm-4.49 3.019c1.665 0 3.019-1.354 3.019-3.019v-3.019H8.148c-1.665 0-3.019 1.354-3.019 3.019s1.354 3.019 3.019 3.019zm11.725-6.507c0 2.476-2.014 4.49-4.49 4.49s-4.49-2.014-4.49-4.49 2.014-4.49 4.49-4.49 4.49 2.014 4.49 4.49zm-4.49 3.019c1.665 0 3.019-1.354 3.019-3.019s-1.354-3.019-3.019-3.019-3.019 1.354-3.019 3.019 1.354 3.019 3.019 3.019z"/></svg>
+            </a>
+          </div>
+
+          <a href="resume.pdf" class="story-btn" data-reveal data-delay="260" target="_blank">ดาวน์โหลด Resume ↓</a>
+        </div>
+
+        <div class="about-photo-wrap" data-reveal data-delay="100">
+          <div class="about-photo-card">
+            <img src="images/L.jpg" alt="ณัฐวุฒิ" class="about-photo-img">
+            <div class="about-photo-ph"></div>
+          </div>
+          <div class="about-dot"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SKILLS ═══ -->
+  <section id="skills" class="sec">
+    <div class="wrap">
+      <p class="label" data-reveal>— เครื่องมือและทักษะ</p>
+      <h2 class="sec-head" data-reveal data-delay="60">ทักษะ.</h2>
+      <div class="skills-groups">
+
+        <div class="sg" data-reveal data-delay="0">
+          <h4>UX/UI &amp; Design</h4>
+          <div class="sk-grid">
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#1e1e2e">
+                <svg viewBox="0 0 48 48"><path d="M29 17c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5zm-5 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm-5-17H9c-2.76 0-5 2.24-5 5s2.24 5 5 5h10V7zm0 12H9c-2.76 0-5 2.24-5 5s2.24 5 5 5h10V19zm20-12H29v10h10c2.76 0 5-2.24 5-5s-2.24-5-5-5z" fill="#a259ff"/></svg>
+              </div>
+              <span>Figma</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#e8f4ff; border:1.5px solid #0d99ff44">
+                <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="16" height="16" rx="2" fill="#0d99ff"/><rect x="26" y="6" width="16" height="16" rx="2" fill="#0d99ff" opacity=".5"/><rect x="6" y="26" width="16" height="16" rx="2" fill="#0d99ff" opacity=".5"/><rect x="26" y="26" width="16" height="16" rx="2" fill="#0d99ff" opacity=".3"/></svg>
+              </div>
+              <span>Wireframing</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#fff4ef; border:1.5px solid #ff6b3544">
+                <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="14" height="24" rx="3" stroke="#ff6b35" stroke-width="2"/><rect x="26" y="16" width="14" height="16" rx="3" stroke="#ff6b35" stroke-width="2"/><path d="M8 36l12-8 6 4 14-12" stroke="#ff6b35" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <span>Prototyping</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#effff4; border:1.5px solid #34c75944">
+                <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="14" width="36" height="24" rx="4" stroke="#34c759" stroke-width="2"/><rect x="14" y="6" width="20" height="8" rx="2" stroke="#34c759" stroke-width="2"/><path d="M16 26h16M20 32h8" stroke="#34c759" stroke-width="2" stroke-linecap="round"/></svg>
+              </div>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sg" data-reveal data-delay="80">
+          <h4>Web Development</h4>
+          <div class="sk-grid">
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#fdf0ec; border:1.5px solid #e34c2644">
+                <svg viewBox="0 0 48 48"><text x="4" y="34" font-size="20" font-family="monospace" font-weight="bold" fill="#e34c26">H5</text></svg>
+              </div>
+              <span>HTML5</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#eceeff; border:1.5px solid #264de444">
+                <svg viewBox="0 0 48 48"><text x="3" y="34" font-size="18" font-family="monospace" font-weight="bold" fill="#264de4">CSS</text></svg>
+              </div>
+              <span>CSS3</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#F7DF1E">
+                <svg viewBox="0 0 48 48"><rect width="48" height="48" fill="#F7DF1E"/><text x="8" y="36" font-size="28" font-family="monospace" font-weight="bold" fill="black">JS</text></svg>
+              </div>
+              <span>JavaScript</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#e8f7f0; border:1.5px solid #00758f44">
+                <svg viewBox="0 0 48 48"><text x="3" y="30" font-size="13" font-family="monospace" font-weight="bold" fill="#00758f">MySQL</text></svg>
+              </div>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sg" data-reveal data-delay="160">
+          <h4>เครื่องมืออื่นๆ</h4>
+          <div class="sk-grid">
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#F05032">
+                <svg viewBox="0 0 48 48" fill="white"><circle cx="24" cy="24" r="10"/><path d="M24 14V8M24 40v-6M14 24H8M40 24h-6M17 17l-4-4M35 35l-4-4M17 31l-4 4M35 13l-4 4" stroke="white" stroke-width="2.5"/></svg>
+              </div>
+              <span>Git / GitHub</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#eef8ff; border:1.5px solid #00b0d744">
+                <svg viewBox="0 0 48 48" fill="none"><path d="M24 8l16 8v16L24 40 8 32V16L24 8z" stroke="#00b0d7" stroke-width="2.5"/><path d="M8 16l16 8 16-8M24 24v16" stroke="#00b0d7" stroke-width="2"/></svg>
+              </div>
+              <span>Netwatch</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#eef8ff; border:1.5px solid #2aabee44">
+                <svg viewBox="0 0 48 48" fill="none"><path d="M24 6l15 8.5v17L24 42 9 31.5v-17L24 6z" stroke="#2aabee" stroke-width="2"/><path d="M16 22l5 5 11-10" stroke="#2aabee" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <span>Telegram Bot</span>
+            </div>
+            <div class="sk-card">
+              <div class="sk-logo-wrap" style="background:#f5f5f5; border:1.5px solid #88888844">
+                <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="14" height="14" rx="2" stroke="#666" stroke-width="2"/><rect x="26" y="8" width="14" height="14" rx="2" stroke="#666" stroke-width="2"/><rect x="8" y="26" width="14" height="14" rx="2" stroke="#666" stroke-width="2"/><rect x="26" y="26" width="14" height="14" rx="2" stroke="#666" stroke-width="2"/></svg>
+              </div>
+              <span>Winbox</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ PROJECTS ═══ -->
+  <section id="projects" class="sec">
+    <div class="wrap">
+      <p class="label" data-reveal>— ผลงานที่ผ่านมา</p>
+      <h2 class="sec-head" data-reveal data-delay="60">ผลงาน.</h2>
+    </div>
+
+    <div class="tl-wrap" id="tlWrap">
+      <div class="tl-axis" id="tlAxis">
+        <div class="tl-track"></div>
+        <div class="tl-fill" id="tlFill"></div>
+        <div class="tl-ball" id="tlBall"></div>
+      </div>
+
+      <div class="tl-row" data-reveal>
+        <a href="#" class="tl-side tl-left" data-cursor="ดูงาน">
+          <div class="tl-img-box">
+            <img src="proj1.jpg" alt="Network" class="tl-img">
+            <div class="tl-ph ph1">
+              <span class="ph-num">01</span>
+              <span class="ph-title">Network<br>Monitoring</span>
+              <div class="ph-tags"><span>Figma</span><span>Netwatch</span></div>
+            </div>
+            <div class="tl-overlay">
+              <span class="ov-num">01</span>
+              <h4>ระบบติดตามอุปกรณ์เครือข่าย</h4>
+              <p>ออกแบบ UI ด้วย Figma + แจ้งเตือน Telegram แบบ Real-time</p>
+            </div>
+          </div>
+        </a>
+        <div class="tl-node"><span></span></div>
+        <a href="#" class="tl-side tl-right" data-cursor="ดูงาน">
+          <div class="tl-img-box">
+            <img src="proj2.jpg" alt="UX Portfolio" class="tl-img">
+            <div class="tl-ph ph2">
+              <span class="ph-num">02</span>
+              <span class="ph-title">UX/UI<br>Portfolio</span>
+              <div class="ph-tags"><span>Figma</span><span>Prototype</span></div>
+            </div>
+            <div class="tl-overlay">
+              <span class="ov-num">02</span>
+              <h4>UX/UI Design Portfolio</h4>
+              <p>Wireframe, Prototype และ User Flow ด้วย Figma</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="tl-row" data-reveal data-delay="80">
+        <a href="#" class="tl-side tl-left" data-cursor="ดูงาน">
+          <div class="tl-img-box">
+            <img src="proj3.jpg" alt="Responsive" class="tl-img">
+            <div class="tl-ph ph3">
+              <span class="ph-num">03</span>
+              <span class="ph-title">Responsive<br>Website</span>
+              <div class="ph-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+            </div>
+            <div class="tl-overlay">
+              <span class="ov-num">03</span>
+              <h4>เว็บไซต์ Responsive</h4>
+              <p>พัฒนาด้วย HTML5, CSS3, JavaScript รองรับทุกอุปกรณ์</p>
+            </div>
+          </div>
+        </a>
+        <div class="tl-node"><span></span></div>
+        <a href="#" class="tl-side tl-right" data-cursor="ดูงาน">
+          <div class="tl-img-box">
+            <img src="proj4.jpg" alt="Database" class="tl-img">
+            <div class="tl-ph ph4">
+              <span class="ph-num">04</span>
+              <span class="ph-title">Database<br>System</span>
+              <div class="ph-tags"><span>MySQL</span></div>
+            </div>
+            <div class="tl-overlay">
+              <span class="ov-num">04</span>
+              <h4>ระบบฐานข้อมูล</h4>
+              <p>ออกแบบและพัฒนาระบบจัดการข้อมูลด้วย MySQL</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="tl-row" data-reveal data-delay="80">
+        <a href="#" class="tl-side tl-left" data-cursor="ดูงาน">
+          <div class="tl-img-box">
+            <img src="proj5.jpg" alt="Telegram" class="tl-img">
+            <div class="tl-ph ph5">
+              <span class="ph-num">05</span>
+              <span class="ph-title">Telegram<br>Bot</span>
+              <div class="ph-tags"><span>Telegram API</span></div>
+            </div>
+            <div class="tl-overlay">
+              <span class="ov-num">05</span>
+              <h4>Telegram Notification Bot</h4>
+              <p>แจ้งเตือนแบบ Real-time, รายวัน และรายเดือน อัตโนมัติ</p>
+            </div>
+          </div>
+        </a>
+        <div class="tl-node"><span></span></div>
+        <a href="#" class="tl-side tl-right" data-cursor="ดูงาน">
+          <div class="tl-img-box">
+            <img src="proj6.jpg" alt="Graphic" class="tl-img">
+            <div class="tl-ph ph6">
+              <span class="ph-num">06</span>
+              <span class="ph-title">Graphic<br>Design</span>
+              <div class="ph-tags"><span>Marketing</span></div>
+            </div>
+            <div class="tl-overlay">
+              <span class="ov-num">06</span>
+              <h4>ออกแบบภาพโปรโมชั่น</h4>
+              <p>สร้างสรรค์ภาพสินค้าเพื่อแคมเปญการขาย (Mini Big C)</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══ CONTACT ═══ -->
+  <section id="contact" class="sec contact-sec">
+    <div class="wrap">
+      <p class="label" data-reveal>— ติดต่อฉัน</p>
+      <h2 class="sec-head contact-h" data-reveal data-delay="60">จ้างงาน<br><em>ฉันได้เลย.</em></h2>
+      <p class="contact-sub" data-reveal data-delay="120">บัณฑิตใหม่ พร้อมเรียนรู้และเติบโต มาสร้างสิ่งที่ดีด้วยกันนะ</p>
+
+      <div class="contact-cards" data-reveal data-delay="200">
+
+        <a href="mailto:Nattawut.samnaknit@mail.com" class="cc-card" data-cursor="อีเมล">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <div class="cc-body">
+            <span class="cc-label">อีเมล</span>
+            <span class="cc-val">Nattawut.samnaknit@mail.com</span>
+          </div>
+          <span class="cc-arrow">↗</span>
+        </a>
+
+        <a href="tel:+66809902729" class="cc-card" data-cursor="โทร">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8 19.79 19.79 0 01.01 1.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+          </div>
+          <div class="cc-body">
+            <span class="cc-label">โทรศัพท์</span>
+            <span class="cc-val">+66 80 990 2729</span>
+          </div>
+          <span class="cc-arrow">↗</span>
+        </a>
+
+        <a href="https://linkedin.com/in/nattawut-samnaknit" target="_blank" class="cc-card" data-cursor="LinkedIn">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </div>
+          <div class="cc-body">
+            <span class="cc-label">LinkedIn</span>
+            <span class="cc-val">linkedin.com/in/nattawut</span>
+          </div>
+          <span class="cc-arrow">↗</span>
+        </a>
+
+        <a href="resume.pdf" target="_blank" class="cc-card cc-accent" data-cursor="ดาวน์โหลด">
+          <div class="cc-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </div>
+          <div class="cc-body">
+            <span class="cc-label">เรซูเม่</span>
+            <span class="cc-val">ดาวน์โหลด PDF</span>
+          </div>
+          <span class="cc-arrow">↓</span>
+        </a>
+
+      </div>
+
+      <div class="contact-cta" data-reveal data-delay="360">
+        <a href="mailto:Nattawut.samnaknit@mail.com" class="cta-big">ส่งอีเมลหาฉัน ↗</a>
+        <p>ตอบกลับภายใน 24 ชั่วโมง</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap foot">
+      <span class="foot-logo">ณัฐวุฒิ.</span>
+      <span>© 2025 · สงวนลิขสิทธิ์</span>
+      <span>UX/UI Designer · พระนครศรีอยุธยา</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

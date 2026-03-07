@@ -16,8 +16,8 @@
   <nav id="nav">
     <div class="nav-wrap">
       <div class="nav-av">
-        <img src="photo.jpg" alt="" id="navImg">
-        <span class="nav-fb">ณ</span>
+        <img src="images/P.jpg" alt="" id="navImg">
+        <span class="nav-fb"></span>
       </div>
       <ul class="nav-list">
         <li><a href="#home"     class="nl">หน้าแรก</a></li>
@@ -63,20 +63,6 @@
     <div class="hero-scroll" data-reveal data-delay="600">
       <div class="s-wheel"><div class="s-ball"></div></div><span>เลื่อนลง</span>
     </div>
-    <div class="ticker-strip">
-      <div class="ticker">
-        <span>UX/UI Design</span><b>✦</b>
-        <span>Figma</span><b>✦</b>
-        <span>Wireframing</span><b>✦</b>
-        <span>HTML · CSS · JS</span><b>✦</b>
-        <span>พร้อมทำงาน</span><b>✦</b>
-        <span>UX/UI Design</span><b>✦</b>
-        <span>Figma</span><b>✦</b>
-        <span>Wireframing</span><b>✦</b>
-        <span>HTML · CSS · JS</span><b>✦</b>
-        <span>พร้อมทำงาน</span><b>✦</b>
-      </div>
-    </div>
   </section>
 
   <!-- ═══ ABOUT ═══ -->
@@ -96,11 +82,12 @@
               <p>เกรด × 100</p>
             </div>
             <div class="ast">
-              <span class="asn" data-count="1">0</span><span class="asp">+</span>
-              <p>ปีประสบการณ์</p>
+              <span class="asn" data-count="22">0</span><span class="asp"></span>
+              <p>อายุ</p>
             </div>
             <div class="ast">
-              <span class="asn" data-count="6">0</span><span class="asp">+</span>
+              <span class="asn" data-count="6"></span>
+              <span class="asp">+</span>
               <p>โปรเจ็ค</p>
             </div>
           </div>
@@ -252,120 +239,143 @@
   <section id="projects" class="sec">
     <div class="wrap">
       <p class="label" data-reveal>— ผลงานที่ผ่านมา</p>
-      <h2 class="sec-head" data-reveal data-delay="60">ผลงาน.</h2>
+      <div class="proj-head-row">
+        <h2 class="sec-head" data-reveal data-delay="60">ผลงาน.</h2>
+        <div class="proj-nav" data-reveal data-delay="100">
+          <button class="proj-nav-btn" id="projPrev" aria-label="ก่อนหน้า">←</button>
+          <button class="proj-nav-btn" id="projNext" aria-label="ถัดไป">→</button>
+        </div>
+      </div>
     </div>
 
-    <div class="tl-wrap" id="tlWrap">
-      <div class="tl-axis" id="tlAxis">
-        <div class="tl-track"></div>
-        <div class="tl-fill" id="tlFill"></div>
-        <div class="tl-ball" id="tlBall"></div>
-      </div>
+    <div class="proj-scroll-wrap">
+      <div class="proj-track" id="projTrack">
 
-      <div class="tl-row" data-reveal>
-        <a href="#" class="tl-side tl-left" data-cursor="ดูงาน">
-          <div class="tl-img-box">
-            <img src="proj1.jpg" alt="Network" class="tl-img">
-            <div class="tl-ph ph1">
-              <span class="ph-num">01</span>
-              <span class="ph-title">Network<br>Monitoring</span>
-              <div class="ph-tags"><span>Figma</span><span>Netwatch</span></div>
-            </div>
-            <div class="tl-overlay">
-              <span class="ov-num">01</span>
-              <h4>ระบบติดตามอุปกรณ์เครือข่าย</h4>
-              <p>ออกแบบ UI ด้วย Figma + แจ้งเตือน Telegram แบบ Real-time</p>
-            </div>
+        <!-- Card 1 -->
+        <div class="proj-card" data-idx="0">
+          <img src="proj1.jpg" alt="" class="proj-card-img">
+          <div class="proj-card-ph pc-ph1">
+            <span class="pn">01</span>
+            <span class="pt">Network<br>Monitoring</span>
           </div>
-        </a>
-        <div class="tl-node"><span></span></div>
-        <a href="#" class="tl-side tl-right" data-cursor="ดูงาน">
-          <div class="tl-img-box">
-            <img src="proj2.jpg" alt="UX Portfolio" class="tl-img">
-            <div class="tl-ph ph2">
-              <span class="ph-num">02</span>
-              <span class="ph-title">UX/UI<br>Portfolio</span>
-              <div class="ph-tags"><span>Figma</span><span>Prototype</span></div>
-            </div>
-            <div class="tl-overlay">
-              <span class="ov-num">02</span>
-              <h4>UX/UI Design Portfolio</h4>
-              <p>Wireframe, Prototype และ User Flow ด้วย Figma</p>
-            </div>
+          <div class="proj-card-overlay">
+            <span class="proj-card-num">01</span>
+            <h3 class="proj-card-title">ระบบติดตามเครือข่าย</h3>
+            <div class="proj-card-tags"><span>Figma</span><span>Netwatch</span><span>Telegram</span></div>
+            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
           </div>
-        </a>
-      </div>
+        </div>
 
-      <div class="tl-row" data-reveal data-delay="80">
-        <a href="#" class="tl-side tl-left" data-cursor="ดูงาน">
-          <div class="tl-img-box">
-            <img src="proj3.jpg" alt="Responsive" class="tl-img">
-            <div class="tl-ph ph3">
-              <span class="ph-num">03</span>
-              <span class="ph-title">Responsive<br>Website</span>
-              <div class="ph-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
-            </div>
-            <div class="tl-overlay">
-              <span class="ov-num">03</span>
-              <h4>เว็บไซต์ Responsive</h4>
-              <p>พัฒนาด้วย HTML5, CSS3, JavaScript รองรับทุกอุปกรณ์</p>
-            </div>
+        <!-- Card 2 -->
+        <div class="proj-card" data-idx="1">
+          <img src="proj2.jpg" alt="" class="proj-card-img">
+          <div class="proj-card-ph pc-ph2">
+            <span class="pn">02</span>
+            <span class="pt">UX/UI<br>Portfolio</span>
           </div>
-        </a>
-        <div class="tl-node"><span></span></div>
-        <a href="#" class="tl-side tl-right" data-cursor="ดูงาน">
-          <div class="tl-img-box">
-            <img src="proj4.jpg" alt="Database" class="tl-img">
-            <div class="tl-ph ph4">
-              <span class="ph-num">04</span>
-              <span class="ph-title">Database<br>System</span>
-              <div class="ph-tags"><span>MySQL</span></div>
-            </div>
-            <div class="tl-overlay">
-              <span class="ov-num">04</span>
-              <h4>ระบบฐานข้อมูล</h4>
-              <p>ออกแบบและพัฒนาระบบจัดการข้อมูลด้วย MySQL</p>
-            </div>
+          <div class="proj-card-overlay">
+            <span class="proj-card-num">02</span>
+            <h3 class="proj-card-title">UX/UI Design Portfolio</h3>
+            <div class="proj-card-tags"><span>Figma</span><span>Prototype</span></div>
+            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
           </div>
-        </a>
-      </div>
+        </div>
 
-      <div class="tl-row" data-reveal data-delay="80">
-        <a href="#" class="tl-side tl-left" data-cursor="ดูงาน">
-          <div class="tl-img-box">
-            <img src="proj5.jpg" alt="Telegram" class="tl-img">
-            <div class="tl-ph ph5">
-              <span class="ph-num">05</span>
-              <span class="ph-title">Telegram<br>Bot</span>
-              <div class="ph-tags"><span>Telegram API</span></div>
-            </div>
-            <div class="tl-overlay">
-              <span class="ov-num">05</span>
-              <h4>Telegram Notification Bot</h4>
-              <p>แจ้งเตือนแบบ Real-time, รายวัน และรายเดือน อัตโนมัติ</p>
-            </div>
+        <!-- Card 3 -->
+        <div class="proj-card" data-idx="2">
+          <img src="proj3.jpg" alt="" class="proj-card-img">
+          <div class="proj-card-ph pc-ph3">
+            <span class="pn">03</span>
+            <span class="pt">Responsive<br>Website</span>
           </div>
-        </a>
-        <div class="tl-node"><span></span></div>
-        <a href="#" class="tl-side tl-right" data-cursor="ดูงาน">
-          <div class="tl-img-box">
-            <img src="proj6.jpg" alt="Graphic" class="tl-img">
-            <div class="tl-ph ph6">
-              <span class="ph-num">06</span>
-              <span class="ph-title">Graphic<br>Design</span>
-              <div class="ph-tags"><span>Marketing</span></div>
-            </div>
-            <div class="tl-overlay">
-              <span class="ov-num">06</span>
-              <h4>ออกแบบภาพโปรโมชั่น</h4>
-              <p>สร้างสรรค์ภาพสินค้าเพื่อแคมเปญการขาย (Mini Big C)</p>
-            </div>
+          <div class="proj-card-overlay">
+            <span class="proj-card-num">03</span>
+            <h3 class="proj-card-title">เว็บไซต์ Responsive</h3>
+            <div class="proj-card-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
           </div>
-        </a>
-      </div>
+        </div>
 
+        <!-- Card 4 -->
+        <div class="proj-card" data-idx="3">
+          <img src="proj4.jpg" alt="" class="proj-card-img">
+          <div class="proj-card-ph pc-ph4">
+            <span class="pn">04</span>
+            <span class="pt">Database<br>System</span>
+          </div>
+          <div class="proj-card-overlay">
+            <span class="proj-card-num">04</span>
+            <h3 class="proj-card-title">ระบบฐานข้อมูล</h3>
+            <div class="proj-card-tags"><span>MySQL</span><span>SQL</span></div>
+            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="proj-card" data-idx="4">
+          <img src="proj5.jpg" alt="" class="proj-card-img">
+          <div class="proj-card-ph pc-ph5">
+            <span class="pn">05</span>
+            <span class="pt">Telegram<br>Bot</span>
+          </div>
+          <div class="proj-card-overlay">
+            <span class="proj-card-num">05</span>
+            <h3 class="proj-card-title">Telegram Notification Bot</h3>
+            <div class="proj-card-tags"><span>Telegram API</span><span>Script</span></div>
+            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
+          </div>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="proj-card" data-idx="5">
+          <img src="proj6.jpg" alt="" class="proj-card-img">
+          <div class="proj-card-ph pc-ph6">
+            <span class="pn">06</span>
+            <span class="pt">Graphic<br>Design</span>
+          </div>
+          <div class="proj-card-overlay">
+            <span class="proj-card-num">06</span>
+            <h3 class="proj-card-title">ออกแบบภาพโปรโมชั่น</h3>
+            <div class="proj-card-tags"><span>Graphic Design</span><span>Marketing</span></div>
+            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
+          </div>
+        </div>
+
+      </div><!-- /proj-track -->
+    </div><!-- /proj-scroll-wrap -->
+
+    <!-- Dot indicators -->
+    <div class="proj-dots" id="projDots">
+      <div class="proj-dot active" data-i="0"></div>
+      <div class="proj-dot" data-i="1"></div>
+      <div class="proj-dot" data-i="2"></div>
+      <div class="proj-dot" data-i="3"></div>
+      <div class="proj-dot" data-i="4"></div>
+      <div class="proj-dot" data-i="5"></div>
     </div>
+
   </section>
+
+  <!-- ═══ PROJECT MODAL ═══ -->
+  <div class="proj-modal" id="projModal" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" id="modalClose" aria-label="ปิด">✕</button>
+      <div class="modal-img-wrap">
+        <img src="" alt="" class="modal-img" id="modalImg">
+        <div class="modal-img-ph" id="modalPh"></div>
+      </div>
+      <div class="modal-body">
+        <span class="modal-num" id="modalNum"></span>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-tags" id="modalTags"></div>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-footer">
+          <a href="#" class="modal-link" id="modalLink">ดูโปรเจ็ค ↗</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- ═══ CONTACT ═══ -->
   <section id="contact" class="sec contact-sec">

@@ -16,7 +16,7 @@
   <nav id="nav">
     <div class="nav-wrap">
       <div class="nav-av">
-        <img src="images/P.jpg" alt="" id="navImg">
+        <img src="images/L.jpg" alt="" id="navImg">
         <span class="nav-fb"></span>
       </div>
       <ul class="nav-list">
@@ -47,7 +47,7 @@
     </div>
     <div class="hero-center" data-reveal data-delay="200">
       <div class="hero-card">
-        <img src="images/L.jpg" alt="ณัฐวุฒิ" id="heroImg">
+        <img src="images/L.jpg" alt="NATTAWUT" id="heroImg">
         <div class="hero-ph">
           <svg viewBox="0 0 100 120" fill="none"><circle cx="50" cy="38" r="24" fill="rgba(255,255,255,.13)"/><ellipse cx="50" cy="92" rx="36" ry="22" fill="rgba(255,255,255,.08)"/></svg>
           <span>ใส่ photo.jpg</span>
@@ -73,7 +73,7 @@
         <div class="about-left">
           <h2 class="sec-head" data-reveal>เกี่ยวกับฉัน</h2>
           <p class="about-intro" data-reveal data-delay="60">
-            สวัสดี ฉันชื่อ <strong>ณัฐวุฒิ สำนักนิตย์</strong> — บัณฑิตใหม่สาขาวิทยาการคอมพิวเตอร์ จาก มทร.สุวรรณภูมิ เกรดเฉลี่ย 3.78 มีความสนใจด้าน UX/UI Design เชี่ยวชาญการออกแบบ Interface ด้วย Figma และหลักการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง พร้อมทำงานร่วมกับทีมพัฒนาอย่างมีประสิทธิภาพ
+            สวัสดี ฉันชื่อ <strong>ณัฐวุฒิ สำนักนิต</strong> — บัณฑิตใหม่สาขาวิทยาการคอมพิวเตอร์ จาก มทร.สุวรรณภูมิ เกรดเฉลี่ย 3.78 มีความสนใจด้าน UX/UI Design เชี่ยวชาญการออกแบบ Interface ด้วย Figma และหลักการออกแบบที่เน้นผู้ใช้เป็นศูนย์กลาง พร้อมทำงานร่วมกับทีมพัฒนาอย่างมีประสิทธิภาพ
           </p>
 
           <div class="about-stats" data-reveal data-delay="120">
@@ -82,12 +82,11 @@
               <p>เกรด × 100</p>
             </div>
             <div class="ast">
-              <span class="asn" data-count="22">0</span><span class="asp"></span>
-              <p>อายุ</p>
+              <span class="asn" data-count="1">0</span><span class="asp">+</span>
+              <p>ปีประสบการณ์</p>
             </div>
             <div class="ast">
-              <span class="asn" data-count="6"></span>
-              <span class="asp">+</span>
+              <span class="asn" data-count="6">0</span><span class="asp">+</span>
               <p>โปรเจ็ค</p>
             </div>
           </div>
@@ -124,7 +123,7 @@
 
         <div class="about-photo-wrap" data-reveal data-delay="100">
           <div class="about-photo-card">
-            <img src="images/P.jpg" alt="ณัฐวุฒิ" class="about-photo-img">
+            <img src="images/L.jpg" alt="ณัฐวุฒิ" class="about-photo-img">
             <div class="about-photo-ph"></div>
           </div>
           <div class="about-dot"></div>
@@ -236,122 +235,150 @@
   </section>
 
   <!-- ═══ PROJECTS ═══ -->
-  <section id="projects" class="sec">
+  <section id="projects" class="sec proj-sec">
     <div class="wrap">
       <p class="label" data-reveal>— ผลงานที่ผ่านมา</p>
-      <div class="proj-head-row">
-        <h2 class="sec-head" data-reveal data-delay="60">ผลงาน.</h2>
-        <div class="proj-nav" data-reveal data-delay="100">
-          <button class="proj-nav-btn" id="projPrev" aria-label="ก่อนหน้า">←</button>
-          <button class="proj-nav-btn" id="projNext" aria-label="ถัดไป">→</button>
+      <h2 class="sec-head" data-reveal data-delay="60">ผลงาน.</h2>
+    </div>
+
+    <!-- ── Row 1: horizontal scroll strip (5 thumbnails) ── -->
+    <div class="bento-strip-wrap" data-reveal data-delay="80">
+      <div class="bento-strip" id="bentoStrip1">
+        <div class="bento-thumb" data-idx="0">
+          <img src="images/project1.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph1"><span class="pn">01</span></div>
+          <div class="bt-label">ระบบติดตามเครือข่าย</div>
+        </div>
+        <div class="bento-thumb" data-idx="1">
+          <img src="images/project11.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph2"><span class="pn">02</span></div>
+          <div class="bt-label">UX/UI Portfolio</div>
+        </div>
+        <div class="bento-thumb" data-idx="2">
+          <img src="images/project2.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph3"><span class="pn">03</span></div>
+          <div class="bt-label">Responsive Website</div>
+        </div>
+        <div class="bento-thumb" data-idx="3">
+          <img src="images/project3.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph4"><span class="pn">04</span></div>
+          <div class="bt-label">ระบบฐานข้อมูล</div>
+        </div>
+        <div class="bento-thumb" data-idx="4">
+          <img src="images/project4.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph5"><span class="pn">05</span></div>
+          <div class="bt-label">Telegram Bot</div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- ── Feature label ── -->
+    <div class="bento-feature-label wrap" data-reveal data-delay="100">
+      <span>Figma ออกแบบเว็บ</span>
+    </div>
+
+    <!-- ── Row 2: Bento feature grid ── -->
+    <div class="bento-grid wrap" data-reveal data-delay="140">
+
+      <!-- Big left: video/main feature -->
+      <div class="bento-cell bento-big" data-idx="0">
+        <img src="images/b.jpg" alt="" class="bc-img">
+        <!-- <div class="bc-ph pc-ph1">
+          <span class="bc-ph-icon">▶</span>
+          <span class="bc-ph-text">ใส่</span>
+        </div>-->
+        <div class="bc-overlay">
+          
+          <span class="bc-num">01</span>
+          <h3>ระบบติดตามอุปกรณ์เครือข่าย</h3>
+          <div class="bc-tags"><span>Figma</span><span>Netwatch</span></div>
+          <span class="bc-cta">ดูรายละเอียด ↗</span>
+        </div>
+      </div>
+
+      <!-- Right column: 2 stacked -->
+      <div class="bento-col-right">
+        <div class="bento-cell bento-sm" data-idx="1">
+          <img src="images/ฺb.jpg" alt="" class="bc-img">
+          <div class="bc-ph pc-ph2"><span class="pn">02</span></div>
+          <div class="bc-overlay">
+            <span class="bc-num">02</span>
+            <h3>UX/UI Portfolio</h3>
+            <span class="bc-cta">ดูรายละเอียด ↗</span>
+          </div>
+        </div>
+        <div class="bento-cell bento-sm" data-idx="2">
+          <img src="images/b.jpg" alt="" class="bc-img">
+          <div class="bc-ph pc-ph3"><span class="pn">03</span></div>
+          <div class="bc-overlay">
+            <span class="bc-num">03</span>
+            <h3>Responsive Website</h3>
+            <span class="bc-cta">ดูรายละเอียด ↗</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ── Row 3: two equal cells ── -->
+    <div class="bento-row2 wrap" data-reveal data-delay="180">
+      <div class="bento-cell bento-half" data-idx="4">
+        <img src="proj5.jpg" alt="" class="bc-img">
+        <div class="bc-ph pc-ph5"><span class="pn">05</span></div>
+        <div class="bc-overlay">
+          <span class="bc-num">05</span>
+          <h3>Telegram Notification Bot</h3>
+          <div class="bc-tags"><span>Telegram API</span></div>
+          <span class="bc-cta">ดูรายละเอียด ↗</span>
+        </div>
+      </div>
+      <div class="bento-cell bento-half" data-idx="3">
+        <img src="proj4.jpg" alt="" class="bc-img">
+        <div class="bc-ph pc-ph4"><span class="pn">04</span></div>
+        <div class="bc-overlay">
+          <span class="bc-num">04</span>
+          <h3>ระบบฐานข้อมูล</h3>
+          <div class="bc-tags"><span>MySQL</span></div>
+          <span class="bc-cta">ดูรายละเอียด ↗</span>
         </div>
       </div>
     </div>
 
-    <div class="proj-scroll-wrap">
-      <div class="proj-track" id="projTrack">
+    <!-- ── Feature label 2 ── -->
+    <div class="bento-feature-label wrap" data-reveal data-delay="200">
+      <span>ผลงาน</span>
+    </div>
 
-        <!-- Card 1 -->
-        <div class="proj-card" data-idx="0">
-          <img src="proj1.jpg" alt="" class="proj-card-img">
-          <div class="proj-card-ph pc-ph1">
-            <span class="pn">01</span>
-            <span class="pt">Network<br>Monitoring</span>
-          </div>
-          <div class="proj-card-overlay">
-            <span class="proj-card-num">01</span>
-            <h3 class="proj-card-title">ระบบติดตามเครือข่าย</h3>
-            <div class="proj-card-tags"><span>Figma</span><span>Netwatch</span><span>Telegram</span></div>
-            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
-          </div>
+    <!-- ── Row 4: bottom scroll strip (5 thumbnails) ── -->
+    <div class="bento-strip-wrap" data-reveal data-delay="220">
+      <div class="bento-strip" id="bentoStrip2">
+        <div class="bento-thumb" data-idx="5">
+          <img src="proj6.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph6"><span class="pn">06</span></div>
+          <div class="bt-label">Graphic Design</div>
         </div>
-
-        <!-- Card 2 -->
-        <div class="proj-card" data-idx="1">
-          <img src="proj2.jpg" alt="" class="proj-card-img">
-          <div class="proj-card-ph pc-ph2">
-            <span class="pn">02</span>
-            <span class="pt">UX/UI<br>Portfolio</span>
-          </div>
-          <div class="proj-card-overlay">
-            <span class="proj-card-num">02</span>
-            <h3 class="proj-card-title">UX/UI Design Portfolio</h3>
-            <div class="proj-card-tags"><span>Figma</span><span>Prototype</span></div>
-            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
-          </div>
+        <div class="bento-thumb" data-idx="0">
+          <img src="proj1.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph1"><span class="pn">01</span></div>
+          <div class="bt-label">ระบบติดตามเครือข่าย</div>
         </div>
-
-        <!-- Card 3 -->
-        <div class="proj-card" data-idx="2">
-          <img src="proj3.jpg" alt="" class="proj-card-img">
-          <div class="proj-card-ph pc-ph3">
-            <span class="pn">03</span>
-            <span class="pt">Responsive<br>Website</span>
-          </div>
-          <div class="proj-card-overlay">
-            <span class="proj-card-num">03</span>
-            <h3 class="proj-card-title">เว็บไซต์ Responsive</h3>
-            <div class="proj-card-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
-            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
-          </div>
+        <div class="bento-thumb" data-idx="1">
+          <img src="proj2.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph2"><span class="pn">02</span></div>
+          <div class="bt-label">UX/UI Portfolio</div>
         </div>
-
-        <!-- Card 4 -->
-        <div class="proj-card" data-idx="3">
-          <img src="proj4.jpg" alt="" class="proj-card-img">
-          <div class="proj-card-ph pc-ph4">
-            <span class="pn">04</span>
-            <span class="pt">Database<br>System</span>
-          </div>
-          <div class="proj-card-overlay">
-            <span class="proj-card-num">04</span>
-            <h3 class="proj-card-title">ระบบฐานข้อมูล</h3>
-            <div class="proj-card-tags"><span>MySQL</span><span>SQL</span></div>
-            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
-          </div>
+        <div class="bento-thumb" data-idx="2">
+          <img src="proj3.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph3"><span class="pn">03</span></div>
+          <div class="bt-label">Responsive Website</div>
         </div>
-
-        <!-- Card 5 -->
-        <div class="proj-card" data-idx="4">
-          <img src="proj5.jpg" alt="" class="proj-card-img">
-          <div class="proj-card-ph pc-ph5">
-            <span class="pn">05</span>
-            <span class="pt">Telegram<br>Bot</span>
-          </div>
-          <div class="proj-card-overlay">
-            <span class="proj-card-num">05</span>
-            <h3 class="proj-card-title">Telegram Notification Bot</h3>
-            <div class="proj-card-tags"><span>Telegram API</span><span>Script</span></div>
-            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
-          </div>
+        <div class="bento-thumb" data-idx="3">
+          <img src="proj4.jpg" alt="" class="bt-img">
+          <div class="bt-ph pc-ph4"><span class="pn">04</span></div>
+          <div class="bt-label">ระบบฐานข้อมูล</div>
         </div>
-
-        <!-- Card 6 -->
-        <div class="proj-card" data-idx="5">
-          <img src="proj6.jpg" alt="" class="proj-card-img">
-          <div class="proj-card-ph pc-ph6">
-            <span class="pn">06</span>
-            <span class="pt">Graphic<br>Design</span>
-          </div>
-          <div class="proj-card-overlay">
-            <span class="proj-card-num">06</span>
-            <h3 class="proj-card-title">ออกแบบภาพโปรโมชั่น</h3>
-            <div class="proj-card-tags"><span>Graphic Design</span><span>Marketing</span></div>
-            <span class="proj-card-cta">ดูรายละเอียด ↗</span>
-          </div>
-        </div>
-
-      </div><!-- /proj-track -->
-    </div><!-- /proj-scroll-wrap -->
-
-    <!-- Dot indicators -->
-    <div class="proj-dots" id="projDots">
-      <div class="proj-dot active" data-i="0"></div>
-      <div class="proj-dot" data-i="1"></div>
-      <div class="proj-dot" data-i="2"></div>
-      <div class="proj-dot" data-i="3"></div>
-      <div class="proj-dot" data-i="4"></div>
-      <div class="proj-dot" data-i="5"></div>
+      </div>
     </div>
 
   </section>
@@ -381,7 +408,7 @@
   <section id="contact" class="sec contact-sec">
     <div class="wrap">
       <p class="label" data-reveal>— ติดต่อฉัน</p>
-      <h2 class="sec-head contact-h" data-reveal data-delay="60">จ้างงาน<br>ฉันได้เลย.</h2>
+      <h2 class="sec-head contact-h" data-reveal data-delay="60">จ้างงาน<br><em>ฉันได้เลย.</em></h2>
       <p class="contact-sub" data-reveal data-delay="120">บัณฑิตใหม่ พร้อมเรียนรู้และเติบโต มาสร้างสิ่งที่ดีด้วยกันนะ</p>
 
       <div class="contact-cards" data-reveal data-delay="200">

@@ -267,7 +267,7 @@ body {
 .bento-thumb {
   flex: 0 0 clamp(110px, 16vw, 200px);
   scroll-snap-align: start;
-  aspect-ratio: 9/16;
+  aspect-ratio: 9/20;
   border-radius: 14px;
   overflow: hidden;
   position: relative;
@@ -385,7 +385,7 @@ body {
   .bento-sm { aspect-ratio: 1/1; }
   .bento-row2 { grid-template-columns: 1fr 1fr; gap: .75rem; }
   .bento-half { aspect-ratio: 1/1; }
-  .bento-big  { aspect-ratio: 3/2; }
+  .bento-big  { aspect-ratio: 16/9; }
   .bc-overlay { opacity:1; transform:none;
     background: linear-gradient(to top, rgba(0,0,0,.75) 0%, rgba(0,0,0,.05) 50%, transparent 100%);
   }
